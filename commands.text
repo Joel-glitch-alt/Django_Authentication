@@ -1,0 +1,14 @@
+1.set up our virtual environment
+  python -m venv venv
+  *Activate 
+  venv\Scripts\activate
+
+2.Created our django Project
+  pip install django
+
+3.Created our Django App
+  django-admin startproject projectname
+
+4.Set up our DataBase
+  python manage.py migrate
+  
