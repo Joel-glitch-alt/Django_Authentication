@@ -12,3 +12,7 @@
 4.Set up our DataBase
   python manage.py migrate
   
+5. Install Rest frame Work
+  pip install djangorestframework
+
+6.Create our API views..
