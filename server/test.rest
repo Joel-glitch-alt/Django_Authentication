@@ -6,15 +6,16 @@ Content-Type: application/json
 
 # 
 
-# POST http://127.0.0.1:8000/signup
-# Content-Type: application/json
+POST http://127.0.0.1:8000/signup
+Content-Type: application/json
 
-# {
-#     "username" : "Joel","password": "add123", "email":"addition@gmail.com"
-# }
+{
+    "username" : "Joel","password": "add123", "email":"addition@gmail.com"
+}
 
 
-# GET  http://127.0.0.1:8000/test_token
-# Content-Type: application/json
+GET  http://127.0.0.1:8000/test_token
+Content-Type: application/json
+Authorization: "token": "f53336ff9eb14ee7280ee5838c95990aece1a067"
 
-# {}
+{}
